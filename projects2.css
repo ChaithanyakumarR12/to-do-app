@@ -157,3 +157,69 @@
     top: 33%;
     left: 35%;
 }
+@media screen and (max-width:600px){
+    .div{
+        font-size: 25px;
+    }
+    .h1s{
+        display: none;
+    }
+    .flex{
+        width: 80%;
+        height: 130vh;
+        left: 0px;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        height: 100px;
+    }
+    .paris{
+        color: gray;
+        font-size: 25px;
+        border-bottom: 0px;
+    }
+   
+    .ls{
+        display: none;
+    }
+    .card1{
+        left: 20%;
+        font-size: 25px;
+    }
+    .cardg{
+        left:20%;
+    }
+    .st1{
+        left: 20%;
+    }
+    .ad{
+        width: 80%;
+        left: 10%;
+    }
+    .ts{
+        width: 60%;
+    }
+    .bt{
+        width: 20%;
+    }
+}
+@media screen and (width:768px) and (height:1024px){
+    .flex-container{
+        width: 100%;
+        height: 750px;
+        left: 0px;
+    }
+}
+@media (width:1024px){
+    .flex-container{
+        left: 100px;
+        height: 750px;
+    }
+}
+@media screen and (min-width:1200px){
+    .flex-container{
+        padding: 50px;
+        height:750px;
+    }
+}

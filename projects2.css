@@ -75,6 +75,21 @@
     left: 20px;
     font-weight: 600;
 }
+.paris00
+{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    color: red;
+    text-decoration-line: line-through;
+}
+.lists00
+{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-weight: 600;
+}
 .blur
 {
     filter:blur(15px)
@@ -179,7 +194,12 @@
         font-size: 25px;
         border-bottom: 0px;
     }
-   
+    .paris0{
+        display: none;
+    }
+    .lists{
+        display: none;
+    }
     .ls{
         display: none;
     }
